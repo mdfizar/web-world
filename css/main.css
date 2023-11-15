@@ -11,6 +11,7 @@ body {
 /*====== product ======== */
 #product {
   background-color:rgb(110, 211, 110);
+  padding-right: 30px;
 }
 .product::-webkit-scrollbar {
   display: none;
@@ -25,6 +26,8 @@ body {
   border-radius: 7px;
   box-shadow: 0 20px 10px -20px red inset, 0 -20px 10px -20px red inset, 20px 0 10px -20px red inset;
   padding:10px; 
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
 }
 .product:hover img {
   animation: scroolanimation 6s;
